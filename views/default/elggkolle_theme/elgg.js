@@ -1,5 +1,6 @@
 /**
- * Elgg Kolle Theme - JavaScript for interactive features
+ * TXTR.ME Theme - JavaScript for interactive features
+ * YOUR MESSAGE IS THE WORLD
  */
 
 (function() {
@@ -233,11 +234,13 @@
         FormValidation.init();
     }
     
-    // Export Toast for use in other scripts
+    // Export for use in other scripts
     window.ElggKolleTheme = {
         Toast: Toast,
         DarkMode: DarkMode
     };
+    
+    window.TxtrMe = window.ElggKolleTheme; // Alias for TXTR.ME
     
 })();
 

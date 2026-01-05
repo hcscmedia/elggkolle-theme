@@ -1,12 +1,15 @@
-# Elgg Kolle Theme
+# TXTR.ME Theme
 
-Ein modernes, app-ähnliches Theme für Elgg 6.3.2, inspiriert vom Design von X.com (Twitter).
+Ein modernes Messaging-Theme für die TXTR.ME Plattform (Elgg 6.3.2).
+
+**YOUR MESSAGE IS THE WORLD**
 
 ## Features
 
 ✨ **Modernes Design**
-- Clean, minimalistisches Interface im X.com-Stil
+- Clean, minimalistisches Interface für Messaging
 - App-ähnliche Benutzeroberfläche
+- Optimiert für TXTR.ME
 - Responsive Layout für alle Geräte
 
 🌙 **Dark Mode**
@@ -78,7 +81,7 @@ Bearbeiten Sie die CSS-Variablen in `views/default/elggkolle_theme/elgg.css`:
 
 ```css
 :root {
-    --color-primary: #1d9bf0;        /* Primärfarbe */
+    --color-primary: #e74c3c;        /* TXTR.ME Rot */
     --color-background: #ffffff;      /* Hintergrund */
     --color-text-primary: #0f1419;   /* Textfarbe */
     /* ... weitere Farben ... */
@@ -119,11 +122,13 @@ Der Dark Mode wird automatisch erkannt und kann über einen Toggle-Button in der
 - Sticky Sidebar mit Hauptnavigation
 - Responsive Topbar mit Suchfunktion
 - Mobile-optimierte Navigation
+- Messaging-fokussiertes Layout
 
 ### Activity Feed
-- X.com-style Post-Layout
-- Unterstützung für Bilder und Anhänge
+- Moderne Post-Darstellung
+- Unterstützung für Nachrichten und Anhänge
 - Interaktive Aktionen (Like, Kommentieren, Teilen)
+- Optimiert für Text-Kommunikation
 
 ### Formulare
 - Moderne Input-Styles
@@ -157,8 +162,8 @@ MIT License - siehe LICENSE-Datei für Details
 
 ## Credits
 
-Entwickelt von HCS Media
-Inspiriert von X.com (Twitter) Design
+Entwickelt von HCS Media für TXTR.ME
+Speziell optimiert für die Messaging-Plattform "YOUR MESSAGE IS THE WORLD"
 
 ## Support
 
@@ -168,9 +173,15 @@ Bei Fragen oder Problemen:
 
 ## Changelog
 
+### Version 1.1.0 (2026-01-05)
+- Anpassung für TXTR.ME Plattform
+- Primärfarbe auf Rot (#e74c3c) geändert
+- Branding für "YOUR MESSAGE IS THE WORLD"
+- Messaging-fokussierte Optimierungen
+
 ### Version 1.0.0 (2026-01-05)
 - Initiales Release
-- X.com-inspiriertes Design
+- Modern UI Design
 - Dark Mode Support
 - Responsive Layout
 - Modern UI Components

@@ -12,25 +12,25 @@ $user = elgg_get_logged_in_user_entity();
         [
             'name' => 'home',
             'text' => '<svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 12h3v9h6v-6h2v6h6v-9h3L12 2z"/></svg><span>Startseite</span>',
-            'href' => elgg_get_site_url(),
+            'href' => 'https://txtr.me/',
             'priority' => 100,
         ],
         [
             'name' => 'activity',
             'text' => '<svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/><circle cx="12" cy="12" r="3"/></svg><span>Aktivität</span>',
-            'href' => elgg_get_site_url() . 'activity',
+            'href' => 'https://txtr.me/activity',
             'priority' => 200,
         ],
         [
             'name' => 'messages',
             'text' => '<svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg><span>Nachrichten</span>',
-            'href' => elgg_get_site_url() . 'messages',
+            'href' => 'https://txtr.me/messages',
             'priority' => 300,
         ],
         [
             'name' => 'groups',
             'text' => '<svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg><span>Gruppen</span>',
-            'href' => elgg_get_site_url() . 'groups/all',
+            'href' => 'https://txtr.me/groups/all',
             'priority' => 400,
         ],
     ];
@@ -53,12 +53,12 @@ $user = elgg_get_logged_in_user_entity();
     }
     echo '</ul>';
     
-    // Post button (X.com-style)
+    // Post button (Messaging-style)
     if ($user) {
         echo '<div style="margin-top: var(--space-xl);">';
         echo elgg_view('output/url', [
-            'text' => 'Posten',
-            'href' => elgg_get_site_url() . 'thewire/add',
+            'text' => 'Neue Nachricht',
+            'href' => 'https://txtr.me/thewire/add',
             'class' => 'elgg-button elgg-button-action',
             'style' => 'width: 100%; padding: var(--space-lg); font-size: var(--font-size-lg); font-weight: 700;',
         ]);

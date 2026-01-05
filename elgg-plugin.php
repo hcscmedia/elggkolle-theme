@@ -5,9 +5,9 @@
 
 return [
     'id' => 'elggkolle_theme',
-    'name' => 'Elgg Kolle Theme',
-    'description' => 'Modern app-like theme inspired by X.com (Twitter) for Elgg 6.3.2',
-    'version' => '1.0.0',
+    'name' => 'TXTR.ME Theme',
+    'description' => 'Modern messaging theme for TXTR.ME - YOUR MESSAGE IS THE WORLD',
+    'version' => '1.1.0',
     'author' => 'HCS Media',
     'website' => '',
     'category' => 'theme',

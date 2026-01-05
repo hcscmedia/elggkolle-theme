@@ -45,7 +45,7 @@ $user = elgg_get_logged_in_user_entity();
             } else {
                 echo elgg_view('output/url', [
                     'text' => elgg_echo('login'),
-                    'href' => elgg_get_site_url() . 'login',
+                    'href' => 'https://txtr.me/login',
                     'class' => 'elgg-button elgg-button-action',
                 ]);
             }

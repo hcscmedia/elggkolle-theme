@@ -1,16 +1,17 @@
 /**
- * Elgg Kolle Theme - Modern X.com-inspired styles
- * Version: 1.0.0
+ * TXTR.ME Theme - Modern messaging platform styles
+ * Version: 1.1.0
+ * YOUR MESSAGE IS THE WORLD
  */
 
 /* ===================================
    ROOT VARIABLES & DESIGN TOKENS
    =================================== */
 :root {
-    /* X.com Color Palette - Light Mode */
-    --color-primary: #1d9bf0;
-    --color-primary-hover: #1a8cd8;
-    --color-primary-light: rgba(29, 155, 240, 0.1);
+    /* TXTR.ME Color Palette - Light Mode */
+    --color-primary: #e74c3c;
+    --color-primary-hover: #c0392b;
+    --color-primary-light: rgba(231, 76, 60, 0.1);
     --color-background: #ffffff;
     --color-background-secondary: #f7f9f9;
     --color-background-hover: #f7f9f9;
@@ -21,9 +22,10 @@
     --color-text-tertiary: #8b98a5;
     
     /* Accent Colors */
-    --color-success: #00ba7c;
-    --color-error: #f4212e;
-    --color-warning: #ffad1f;
+    --color-success: #27ae60;
+    --color-error: #e74c3c;
+    --color-warning: #f39c12;
+    --color-message: #3498db;
     
     /* Spacing Scale */
     --space-xs: 4px;
