@@ -14,17 +14,17 @@ class Bootstrap extends DefaultPluginBootstrap {
      */
     public function init() {
         // Register CSS
-        \elgg_extend_view('elgg.css', 'elggkolle_theme/elgg.css');
-        \elgg_extend_view('admin.css', 'elggkolle_theme/admin.css');
+        elgg()->views->extendView('elgg.css', 'elggkolle_theme/elgg.css');
+        elgg()->views->extendView('admin.css', 'elggkolle_theme/admin.css');
         
         // Register JavaScript
-        \elgg_extend_view('elgg.js', 'elggkolle_theme/elgg.js');
+        elgg()->views->extendView('elgg.js', 'elggkolle_theme/elgg.js');
         
         // Register custom view locations
-        \elgg_register_plugin_hook_handler('view_vars', 'page/elements/head', [$this, 'modifyHeadVars']);
+        elgg()->hooks->registerHandler('view_vars', 'page/elements/head', [$this, 'modifyHeadVars']);
         
         // Add dark mode support
-        \elgg_register_plugin_hook_handler('head', 'page', [$this, 'setupDarkMode']);
+        elgg()->hooks->registerHandler('head', 'page', [$this, 'setupDarkMode']);
     }
     
     /**
