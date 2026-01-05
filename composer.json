@@ -8,7 +8,9 @@
         "theme",
         "modern",
         "dark-mode",
-        "responsive"
+        "responsive",
+        "txtr.me",
+        "messaging"
     ],
     "homepage": "https://github.com/hcscmedia/elggkolle-theme",
     "license": "MIT",
@@ -30,5 +32,10 @@
     },
     "conflict": {
         "elgg/elgg": "<6.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elggkolle\\Theme\\": "classes/Elggkolle/Theme/"
+        }
     }
 }

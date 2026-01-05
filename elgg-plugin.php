@@ -1,6 +1,6 @@
 <?php
 /**
- * Elgg Kolle Theme - Modern X.com-style theme for Elgg 6.3.2
+ * TXTR.ME Theme - Modern messaging theme for Elgg 6.3.2
  */
 
 return [
@@ -24,9 +24,11 @@ return [
         [
             'type' => 'plugin',
             'name' => 'elggkolle_theme',
-            'version' => '1.0.0',
+            'version' => '1.1.0',
         ],
     ],
     'screenshots' => [],
     'license' => 'MIT',
+    
+    'bootstrap' => \Elggkolle\Theme\Bootstrap::class,
 ];

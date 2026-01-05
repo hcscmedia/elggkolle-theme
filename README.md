@@ -53,9 +53,12 @@ Ein modernes Messaging-Theme für die TXTR.ME Plattform (Elgg 6.3.2).
 
 ```
 elggkolle_theme/
-├── elgg-plugin.php          # Plugin-Manifest
-├── start.php                # Bootstrap-Datei
-├── manifest.xml             # Legacy-Manifest
+├── elgg-plugin.php          # Plugin-Manifest mit Bootstrap-Klasse
+├── composer.json            # Composer-Konfiguration
+├── classes/
+│   └── Elggkolle/
+│       └── Theme/
+│           └── Bootstrap.php    # Bootstrap-Klasse (Elgg 6.x)
 ├── views/
 │   └── default/
 │       ├── elggkolle_theme/
@@ -178,6 +181,9 @@ Bei Fragen oder Problemen:
 - Primärfarbe auf Rot (#e74c3c) geändert
 - Branding für "YOUR MESSAGE IS THE WORLD"
 - Messaging-fokussierte Optimierungen
+- Migration zu Elgg 6.x Bootstrap-Klasse
+- Entfernung von start.php und manifest.xml (Elgg 6.x Standard)
+- PSR-4 Autoloading hinzugefügt
 
 ### Version 1.0.0 (2026-01-05)
 - Initiales Release
