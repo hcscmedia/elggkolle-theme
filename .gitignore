@@ -1,0 +1,28 @@
+# .gitignore für Elgg Kolle Theme
+
+# OS Files
+.DS_Store
+Thumbs.db
+.directory
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node Modules (falls Build-Tools verwendet werden)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build Output (falls verwendet)
+dist/
+build/
+
+# Temporary Files
+*.log
+*.cache
+tmp/
+temp/
