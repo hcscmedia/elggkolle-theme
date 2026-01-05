@@ -111,48 +111,48 @@ body {
    =================================== */
 .elgg-page-default {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    background-color: var(--color-background);
 }
 
 .elgg-page-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     background: var(--color-surface);
     border-bottom: 1px solid var(--color-border);
     box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: var(--space-lg) 0;
 }
 
 .elgg-page-body {
-    flex: 1;
-    display: flex;
     max-width: 1400px;
     margin: 0 auto;
-    width: 100%;
+    padding: var(--space-2xl) var(--space-lg);
 }
 
-.elgg-sidebar {
-    width: var(--sidebar-width);
-    padding: var(--space-2xl) var(--space-lg);
-    border-right: 1px solid var(--color-border);
-    position: sticky;
-    top: var(--topbar-height);
-    height: calc(100vh - var(--topbar-height));
-    overflow-y: auto;
+/* Activity Stream Layout */
+.elgg-layout-one-column,
+.elgg-layout-content {
+    max-width: 680px;
+    margin: 0 auto;
 }
 
 .elgg-main {
-    flex: 1;
-    max-width: var(--main-content-width);
-    margin: 0 auto;
-    padding: var(--space-2xl) var(--space-lg);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.elgg-sidebar {
+    width: 280px;
+    padding: var(--space-xl);
 }
 
 .elgg-aside {
     width: 350px;
-    padding: var(--space-2xl) var(--space-lg);
-    border-left: 1px solid var(--color-border);
+    padding: var(--space-xl);
 }
 
 /* ===================================
