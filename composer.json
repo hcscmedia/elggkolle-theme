@@ -1,0 +1,34 @@
+{
+    "name": "hcscmedia/elggkolle-theme",
+    "description": "Modern app-like theme inspired by X.com for Elgg 6.3.2",
+    "type": "elgg-plugin",
+    "keywords": [
+        "elgg",
+        "plugin",
+        "theme",
+        "modern",
+        "dark-mode",
+        "responsive"
+    ],
+    "homepage": "https://github.com/hcscmedia/elggkolle-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HCS Media"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hcscmedia/elggkolle-theme/issues",
+        "source": "https://github.com/hcscmedia/elggkolle-theme"
+    },
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^1.0.8"
+    },
+    "require-dev": {
+        "elgg/elgg": "^6.3.2"
+    },
+    "conflict": {
+        "elgg/elgg": "<6.3.2"
+    }
+}
