@@ -32,10 +32,5 @@
     },
     "conflict": {
         "elgg/elgg": "<6.3.2"
-    },
-    "autoload": {
-        "psr-4": {
-            "Elggkolle\\Theme\\": "classes/Elggkolle/Theme/"
-        }
     }
 }
