@@ -4,7 +4,7 @@ return [
     'id' => 'elggkolle_theme',
     'name' => 'TXTR.ME Theme',
     'description' => 'Modern messaging theme for TXTR.ME',
-    'version' => '1.2.2',
+    'version' => '1.3.0',
     'author' => 'HCS Media',
     'category' => 'theme',
     'license' => 'MIT',
